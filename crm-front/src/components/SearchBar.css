@@ -1,0 +1,31 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.search-input, .date-input {
+  padding: 10px;
+  width: 300px;
+}
+
+.new-client-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.clear-button {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 2rem;
+  cursor: pointer;
+
+}
+.clear-button:hover {
+  color: #555;
+}
